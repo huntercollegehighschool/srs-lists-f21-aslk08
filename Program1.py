@@ -7,6 +7,6 @@ Define a function number_of_odds that takes a list of integers as an argument. T
 def number_of_odds(lst):
   tot = 0
   for num in lst:
-    if num % 2 == 0:
+    if num % 2 == 1:
       tot += 1
   return tot
